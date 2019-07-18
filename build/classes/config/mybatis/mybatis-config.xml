@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<settings>
+<!-- 让mybatis不使用自己的slf4j日志功能、使用log4j输出日志 -->
+        <setting name="logImpl" value="LOG4J"/> 
+ </settings>
+</configuration>
